@@ -1,0 +1,80 @@
+﻿<widget id="A6046064356069" version="0.0.1">
+
+ 	<name>testApp</name>
+
+    <description>
+
+        Example For APICloud.
+
+    </description>
+
+    <author email="developer@apicloud.com" href="http://www.apicloud.com">
+
+        Developer
+
+    </author>
+
+    <content src="index.html" />
+
+    <access origin="*" />
+
+    <preference name="pageBounce" value="false"/>
+
+	<!-- window.navigation.userAgent追加标识,识别环境。 -->
+	<preference name="userAgent" value="APICloud" />
+
+	<preference name="appBackground" value="rgba(255,255,255,1)"/>
+
+	<preference name="windowBackground" value="rgba(255,255,255,1)"/>
+
+	<preference name="frameBackgroundColor" value="rgba(255,255,255,1)"/>
+
+	<preference name="hScrollBarEnabled" value="false"/>
+
+	<preference name="vScrollBarEnabled" value="false"/>
+
+	<preference name="appCertificateVerify" value="false" />
+  <preference name="useWKWebView" value="true"/>
+
+	<!-- 隐藏启动图 -->
+	<preference name="autoLaunch" value="false"/>
+
+	<preference name="fullScreen" value="false"/>
+
+	<preference name="autoUpdate" value="false" />
+
+	<preference name="smartUpdate" value="true" />
+
+	<preference name="debug" value="false"/>
+
+	<preference name="statusBarAppearance" value="true"/>
+
+    <preference name="iOS7StatusBarAppearance" value="true"/>
+
+	<permission name="readPhoneState" />
+
+	<permission name="camera" />
+
+	<permission name="record" />
+
+	<permission name="location" />
+
+	<permission name="fileSystem" />
+
+	<permission name="internet" />
+
+	<permission name="bootCompleted" />
+
+	<permission name="hardware" />
+
+	<feature name="aliPayPlus">
+		<param name="urlScheme" value="AliPayPlusA6098929663270" />
+	</feature>
+
+	<feature name="wx">
+		<param name="urlScheme" value="wx3296cb6866fecb83"/>
+		<param name="apiKey" value="wx3296cb6866fecb83"/>
+		<param name="apiSecret" value="6f0fa496b623e5ea006ab434e48f314c"/>
+	</feature>
+
+</widget>
